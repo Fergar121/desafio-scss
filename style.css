@@ -1,0 +1,608 @@
+/* INICIO INDEX */
+.mediosdecontactonav{
+    height: 160px;
+    border: solid 5px black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+    background-color: rgb(220, 160, 160);
+}
+.nombredobleshoes{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: fantasy;
+    padding-top: 7%;
+    font-size: 30px;
+    position: absolute;
+    left: 700px;
+    top: 200px;
+    transition: all 0.5s;
+}
+.nombredobleshoes:hover{
+    color:green; font-size:30px;
+}
+.nav-bar{
+    background-color: lightblue;
+}
+.linkheader--{
+    transition: all 1.5s;
+}
+
+.linkheader--1:hover{
+    background-color: aquamarine;
+    color:rgb(7, 37, 232); font-size:40px;
+}
+.linkheader--2:hover{
+    background-color: aquamarine;
+    color:rgb(7, 37, 232); font-size:40px;
+}
+.linkheader--3:hover{
+    background-color: aquamarine;
+    color:rgb(7, 37, 232); font-size:40px;
+}
+.linkheader--4:hover{
+    background-color: aquamarine;
+    color:rgb(7, 37, 232); font-size:40px;
+}
+.mediosdepagoheader:hover{
+    background-color: aquamarine;
+}
+.mediosdecontacto-01:hover{
+    background-color: aquamarine;
+}
+
+
+.maps{
+    text-align: center;
+    padding-bottom: 10%;
+    position: absolute;
+    left: 600px;
+    top: 500px;
+}
+.footerpago{
+    position: absolute;
+    top:3000px ;
+    left: 30px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.clickmedios{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 3070px;
+    left: 30px;
+    text-decoration: none;
+}
+
+.domicilio{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 3170px;
+
+}
+
+.footercontacto{
+    color: black;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 1600px;
+    bottom: 200px;
+}
+
+.linkcomunicacion{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+
+}
+.article{
+    justify-content: center;
+}
+.graciasfooter{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 3340px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    left: 700px;
+    overflow:hidden;
+}
+.links-index{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 200px;
+    text-decoration: none;
+    color: black;
+    font-family: fantasy;
+}
+
+
+.graciasfooter:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3)
+}
+
+.botonarriba{
+    position: absolute;
+    top: 3500px;
+}
+
+.h2productos{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    top: 800px;
+    color: brown;
+}
+.footerindex{
+    bottom: 2500px;
+    position: relative;
+}
+.linksheader{
+    text-align: center;
+}
+
+.logoheaderdoble{
+    color: rgba(189, 179, 179, 0.496);
+    position: relative;
+    top: 100px;
+}
+
+.logoheaderdoble:hover{
+    filter: opacity(.5);
+}
+.idmedios{
+    position: absolute;
+    top: 3500px;
+}
+
+
+/* FIN INDEX */
+
+/* SECCION buzos */
+
+.linkbuzos-1{
+    transition: all 0.5s;
+}
+.linkbuzos-1:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkbuzos-2{
+    transition: all 0.5s;
+}
+.linkbuzos-2:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkbuzos-3{
+    transition: all 0.5s;
+}
+.linkbuzos-3:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkbuzos-4{
+    transition: all 0.5s;
+}
+.linkbuzos-4:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkbuzos-5{
+    transition: all 0.5s;
+}
+.linkbuzos-5:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+
+
+.navbuzos1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.titlebuzos{
+    font-size: 40px;
+    text-align: center;
+    color: brown;
+}
+
+.grid-container-2{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    overflow:hidden;
+}
+.grid-container-2{
+    filter:contrast(130%);
+}   
+.grid-item-buzos{
+    font-family: fantasy;
+    color: green;
+}
+.footer-doble{
+    color: rgb(37, 19, 6) ;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    text-align: left;
+    top: 40px;
+    transition: all 0.5s;
+}
+.footer-doble:hover{
+    color: violet; font-size: 50px;
+}
+/* FIN DE BUZOS */
+
+/* SECCION NIKE */
+.linknike-1{
+    position: relative;
+    top: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+.linknike-2{
+    position: relative;
+    top: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.linknike-3{
+   position: relative;
+   top: 10px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 18px;
+   transition: all 0.3s; 
+   top: 10px;
+}
+
+.linknike-4{
+    position: relative;
+    top: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+.linknike-5{
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    transition: all 0.3s;
+    top: 20px;
+}
+
+.h2nike{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(68, 82, 83);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.zapatillasnike{
+    text-align: center;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: chocolate;
+}
+.zapatillasnike:hover{
+    filter: saturate(180%);
+}
+.nikefooter{
+    display: flex;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: tomato;
+    transition: all 0.5s;
+}
+.nikefooter:hover{
+    color:red; font-size:30px;
+}
+/* fin de nike */
+
+
+/* inicio de rave */
+.linkrave-1:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkrave-2:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkrave-3:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkrave-4:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkrave-5:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkrave-1{
+    position: relative;
+    top: 0px;
+    transition: all 0.3s;
+}
+.linkrave-2{
+    position: relative;
+    top: 5px;
+    transition: all 0.3s;
+}
+.linkrave-3{
+    position: relative;
+    top: 10px;
+    transition: all 0.3s;
+}
+.linkrave-4{
+    position: relative;
+    top: 15px;
+    transition: all 0.3s;
+}
+.linkrave-5{
+    position: relative;
+    top: 20px;
+    transition: all 0.3s;
+}
+.titulocalzadorave{
+    text-align: center;
+    position: relative;
+    font-family: fantasy;
+    color:crimson ;
+    font-size: 35px;
+    transition: all 0.5s;
+}
+.titulocalzadorave:hover{
+    color:rgb(33, 110, 108); font-size:40px;
+}
+.textoyimagenesrav{
+    text-align: center;
+    color: crimson ;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.finrav{
+    font-size: 30px;
+    color: crimson;
+    font-family: fantasy;
+    transition: all 0.5s;
+}
+.finrav:hover{
+    color: brown; font-size: 40px;
+}
+
+.textoyimagenesrav:hover{
+    filter: saturate(180%);
+}
+.linkrave-:hover{
+    color: aquamarine;
+}
+/* fin de seccion de rav */
+
+/* Inicio seccion de verano */
+.bodyverano{
+    background-color: rgb(107, 120, 18);
+}
+
+.linkverano-1{
+    transition: all 0.3s;
+}
+.linkverano-1:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkverano-2{
+    transition: all 0.3s;
+}
+.linkverano-2:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkverano-3{
+    transition: all 0.3s;
+}
+.linkverano-3:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkverano-4{
+    transition: all 0.3s;
+}
+.linkverano-4:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkverano-5{
+    transition: all 0.3s;
+}
+.linkverano-5:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.navverano:hover{
+    color: gray; font-size: 22px;
+}
+.tituloverano{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(211, 164, 255);
+    text-align: center;
+    font-size: 35px;
+}
+.imagenesytitulosverano{
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    color: rgb(211, 164, 255);
+}
+.imagenesytitulosverano:hover{
+    filter: saturate(180%);
+}
+.footerverano{
+    position: relative;
+    font-size: 25px;
+    color: rgb(211, 164, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all 0.3s;
+}
+.footerverano:hover{
+    color:rgb(128, 0, 36); font-size:30px;
+}
+/* fin de seccion verano */
+
+/* medios de pagoo */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 6px;
+    text-align: center;
+    font-family: fantasy;
+    background-color: coral;
+}
+.link{
+    display: grid;
+    transition: all 0.3s;
+}
+    
+.link1 { 
+    grid-area: 1 / 1 / 2 / 5; 
+    transition: all 0.3s;
+}
+.link2 { 
+    grid-area: 2 / 1 / 3 / 5; 
+    transition: all 0.3s;
+}
+.link3 {
+     grid-area: 3 / 1 / 4 / 5; 
+     transition: all 0.3s;
+    }
+.link4 { 
+    grid-area: 4 / 1 / 5 / 5;
+    transition: all 0.3s;
+ }
+.link5 { 
+    grid-area: 5 / 1 / 6 / 5; 
+    transition: all 0.3s;
+} 
+.link1:hover{
+    overflow: hidden;
+}
+.link2:hover{
+    overflow: hidden;
+}
+.link3:hover{
+    overflow: hidden;
+}
+.link4:hover{
+    overflow: hidden;
+}
+.link5:hover{
+    overflow: hidden;
+}
+.grid-container-1{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: solid 3px black;
+    font-family: fantasy;
+    color: brown;
+    background-color:peru;
+    text-align: center;
+    overflow:hidden;
+}
+.grid-container{
+    overflow:hidden;
+}
+.grid-container:hover{
+    color:-webkit-transform scale(1.3);transform:scale(1.3)
+}
+.grid-container-1:hover{
+    color:-webkit-transform scale(1.3);transform:scale(1.3)
+}
+        
+.medios-{
+    display: grid;
+}    
+
+.medios-1{ 
+        grid-area: 1 / 1 / 2 / 6; 
+    }
+.medios-2{ 
+    grid-area: 2 / 1 / 3 / 6; 
+}
+.medios-3 { 
+    grid-area: 3 / 1 / 4 / 6; 
+}
+.medios-4 { 
+     grid-area: 4 / 1 / 5 / 6; 
+}
+.medios-5 { 
+    grid-area: 5 / 1 / 6 / 6; 
+}
+.medios-6 { 
+    grid-area: 6 / 1 / 7 / 6; 
+}
+
+.imagenes-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    text-align: center;
+}
+  
+.imagen-logos{
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container-3{
+   display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 13px;
+    grid-row-gap: 4px;
+    position: relative;
+    top: 200px;
+    text-align: center;
+    border: solid 3px black;
+}
+  
+.grid-item--1 { 
+    display: grid;
+    grid-area: 1 / 1 / 2 / 2; 
+}
+
+.grid-item--2 { 
+    display: grid;
+    grid-area: 1 / 2 / 2 / 3; 
+}
+
+.grid-item--3 {
+    display: grid;
+    grid-area: 2 / 1 / 3 / 2; 
+}
+
+.grid-item--4{
+    display: grid; 
+    grid-area: 2 / 2 / 3 / 3; 
+}

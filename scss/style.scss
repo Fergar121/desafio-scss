@@ -1,0 +1,56 @@
+// Seccion medios de pagoo - sass
+
+.h1-mediosdepagoo{
+    color: green;
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s;
+}
+.h1-mediosdepagoo:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+
+.seccion-medios-pago{
+    .imagen-logos{
+        display: flex;
+        justify-content: center;
+    }
+    .article-medios-pago{
+        .list-group{
+            .list-group-item{
+                display: flex;
+                justify-content: center;
+                color: brown;
+                font-family: fantasy;
+                transition: all 0.3s;
+            }
+            .list-group-item:hover{
+                overflow: hidden;
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+.footermedios{
+    .footer-h2-pago{
+        font-family: fantasy;
+        color: red;
+    }
+    .volver-arriba-pago{
+        display: flex;
+        text-decoration: none;
+        transition: all 0.3s;
+    } 
+    .volver-arriba-pago:hover{
+        overflow: hidden;
+        font-size: 30px;
+    }
+}
+$colores:
+ red
+ brown
+ green;
+
+// fin medios de pagoo
