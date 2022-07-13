@@ -3,6 +3,10 @@
         font-family: fantasy;
         color: red;
     }
+    @mixin footer-h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: green;
+    }
     .volver-arriba-pago{
         display: flex;
         text-decoration: none;

@@ -1,7 +1,8 @@
 @import "seccion";
 @import "footer";
+@import "mapas";
 
-
-
-
+.footer-h2-pago{
+    @include footer-h2();
+}
 

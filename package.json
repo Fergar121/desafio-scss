@@ -1,7 +1,6 @@
 {
   "name": "proyecto-final-main---copia",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,15 @@
   "dependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.19"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fergar121/desafio-scss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Fergar121/desafio-scss/issues"
+  },
+  "homepage": "https://github.com/Fergar121/desafio-scss#readme",
+  "description": ""
 }
