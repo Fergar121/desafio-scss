@@ -1,0 +1,80 @@
+/* inicio de rave */
+.linkrave-1:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkrave-2:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkrave-3:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkrave-4:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkrave-5:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkrave-1{
+    position: relative;
+    top: 0px;
+    transition: all 0.3s;
+}
+.linkrave-2{
+    position: relative;
+    top: 5px;
+    transition: all 0.3s;
+}
+.linkrave-3{
+    position: relative;
+    top: 10px;
+    transition: all 0.3s;
+}
+.linkrave-4{
+    position: relative;
+    top: 15px;
+    transition: all 0.3s;
+}
+.linkrave-5{
+    position: relative;
+    top: 20px;
+    transition: all 0.3s;
+}
+.titulocalzadorave{
+    text-align: center;
+    position: relative;
+    font-family: fantasy;
+    color:crimson ;
+    font-size: 35px;
+    transition: all 0.5s;
+}
+.titulocalzadorave:hover{
+    color:rgb(33, 110, 108); font-size:40px;
+}
+.textoyimagenesrav{
+    text-align: center;
+    color: crimson ;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.finrav{
+    font-size: 30px;
+    color: crimson;
+    font-family: fantasy;
+    transition: all 0.5s;
+}
+.finrav:hover{
+    color: brown; font-size: 40px;
+}
+
+.textoyimagenesrav:hover{
+    filter: saturate(180%);
+}
+.linkrave-:hover{
+    color: aquamarine;
+}
+/* fin de seccion de rav */

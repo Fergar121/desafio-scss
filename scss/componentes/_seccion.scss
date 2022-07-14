@@ -1,8 +1,10 @@
+// medios de pago
 .seccion-medios-pago{
     .imagen-logos{
         display: flex;
         justify-content: center;
     }
+}
     .article-medios-pago{
         .list-group{
             .list-group-item{
@@ -11,16 +13,13 @@
                 color: brown;
                 font-family: fantasy;
                 transition: all 0.3s;
-                & :hover{
+                &:hover{
                     overflow: hidden;
                     font-size: 30px;
-                }
+                        }           
+                }    
             }
-            
-                
-            }
-        }
-    }
+        }               
     .h1-mediosdepagoo{
         border: 3px solid black; 
         display: flex;
@@ -31,3 +30,6 @@
             font-size: 30px;
         }
     }
+
+// fin seccion medios de pago 
+

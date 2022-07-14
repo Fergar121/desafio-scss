@@ -1,0 +1,215 @@
+/* Inicio seccion de verano */
+.bodyverano{
+    background-color: rgb(107, 120, 18);
+}
+
+.linkverano-1{
+    transition: all 0.3s;
+}
+.linkverano-1:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkverano-2{
+    transition: all 0.3s;
+}
+.linkverano-2:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkverano-3{
+    transition: all 0.3s;
+}
+.linkverano-3:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkverano-4{
+    transition: all 0.3s;
+}
+.linkverano-4:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkverano-5{
+    transition: all 0.3s;
+}
+.linkverano-5:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.navverano:hover{
+    color: gray; font-size: 22px;
+}
+.tituloverano{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(211, 164, 255);
+    text-align: center;
+    font-size: 35px;
+}
+.imagenesytitulosverano{
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    color: rgb(211, 164, 255);
+}
+.imagenesytitulosverano:hover{
+    filter: saturate(180%);
+}
+.footerverano{
+    position: relative;
+    font-size: 25px;
+    color: rgb(211, 164, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all 0.3s;
+}
+.footerverano:hover{
+    color:rgb(128, 0, 36); 
+    font-size:30px;
+}
+/* fin de seccion verano */
+
+/* medios de pagoo */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 6px;
+    text-align: center;
+    font-family: fantasy;
+    background-color: coral;
+}
+.link{
+    display: grid;
+    transition: all 0.3s;
+}
+    
+.link1 { 
+    grid-area: 1 / 1 / 2 / 5; 
+    transition: all 0.3s;
+}
+.link2 { 
+    grid-area: 2 / 1 / 3 / 5; 
+    transition: all 0.3s;
+}
+.link3 {
+     grid-area: 3 / 1 / 4 / 5; 
+     transition: all 0.3s;
+    }
+.link4 { 
+    grid-area: 4 / 1 / 5 / 5;
+    transition: all 0.3s;
+ }
+.link5 { 
+    grid-area: 5 / 1 / 6 / 5; 
+    transition: all 0.3s;
+} 
+.link1:hover{
+    overflow: hidden;
+}
+.link2:hover{
+    overflow: hidden;
+}
+.link3:hover{
+    overflow: hidden;
+}
+.link4:hover{
+    overflow: hidden;
+}
+.link5:hover{
+    overflow: hidden;
+}
+.grid-container-1{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: solid 3px black;
+    font-family: fantasy;
+    color: brown;
+    background-color:peru;
+    text-align: center;
+    overflow:hidden;
+}
+.grid-container{
+    overflow:hidden;
+}
+.grid-container:hover{
+    color:-webkit-transform scale(1.3);transform:scale(1.3)
+}
+.grid-container-1:hover{
+    color:-webkit-transform scale(1.3);transform:scale(1.3)
+}
+        
+.medios-{
+    display: grid;
+}    
+
+.medios-1{ 
+        grid-area: 1 / 1 / 2 / 6; 
+    }
+.medios-2{ 
+    grid-area: 2 / 1 / 3 / 6; 
+}
+.medios-3 { 
+    grid-area: 3 / 1 / 4 / 6; 
+}
+.medios-4 { 
+     grid-area: 4 / 1 / 5 / 6; 
+}
+.medios-5 { 
+    grid-area: 5 / 1 / 6 / 6; 
+}
+.medios-6 { 
+    grid-area: 6 / 1 / 7 / 6; 
+}
+
+.imagenes-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    text-align: center;
+}
+.section-navbar{
+    font-size: 30px;
+    background-color:burlywood ;
+}  
+.imagen-logos{
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container-3{
+   display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 13px;
+    grid-row-gap: 4px;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+  
+.grid-item--1 { 
+    display: grid;
+    grid-area: 1 / 1 / 2 / 2; 
+}
+
+.grid-item--2 { 
+    display: grid;
+    grid-area: 1 / 2 / 2 / 3; 
+}
+
+.grid-item--3 {
+    display: grid;
+    grid-area: 2 / 1 / 3 / 2; 
+}
+
+.grid-item--4{
+    display: grid; 
+    grid-area: 2 / 2 / 3 / 3; 
+}

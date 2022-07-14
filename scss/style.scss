@@ -1,14 +1,10 @@
-@import "seccion";
-@import "footer";
-@import "mapas";
- 
-@mixin mixin-navbar {
-    .section-navbar{
-        font-size: 25px;
-    background-color:burlywood ;
-    }
-}
-@import "header";
-@import "mapas";
-
-
+@import "base/mixin";
+@import "base/mapas";
+@import "base/extended";
+@import "componentes/buzos";
+@import "componentes/footer";
+@import "componentes/seccion";
+@import "componentes/nike";
+@import "componentes/rave";
+@import "componentes/index";
+@import "componentes/verano"

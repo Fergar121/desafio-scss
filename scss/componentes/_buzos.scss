@@ -1,0 +1,40 @@
+.titlebuzos{
+    font-size: 40px;
+    text-align: center;
+    color: map-get($map:$propiedades , $key:colortitle )
+}
+.section-navbar{
+    background-color: burlywood;
+    font-size: map-get($map: $propiedades, $key:font-s );
+}
+.grid-container-2{
+    @include display (grid);
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    text-align: map-get($propiedades,text);
+    color: map-get($map: $propiedades, $key: color);
+    font-size: 30px;
+}
+.footer-doble{
+    color: rgb(71, 36, 36);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    text-align: left;
+    transition: all 0.5s;
+}
+.footer-doble:hover{
+    color: violet; font-size: 30px;
+}
+.grid-item-buzos-1{
+    @extend %griditems;
+}
+.grid-item-buzos-2{
+    @extend %griditems;
+}
+.grid-item-buzos-3{
+    @extend %griditems;
+}
+.grid-item-buzos-4{
+    @extend %griditems;
+}
