@@ -9,12 +9,16 @@
     }
     .volver-arriba-pago{
         display: flex;
-        text-decoration: none;
-        transition: all 0.3s;
+        @extend %botonarriba;
         & :hover{
             overflow: hidden;
             font-size: 30px;
         }
     } 
     
+}
+
+%botonarriba{
+    text-decoration: none,
+    transition all 0.3s,
 }

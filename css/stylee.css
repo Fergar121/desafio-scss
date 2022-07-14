@@ -1,15 +1,3 @@
-.h1-mediosdepagoo {
-  color: green;
-  display: flex;
-  justify-content: center;
-  transition: all 0.3s;
-}
-
-.h1-mediosdepagoo:hover {
-  overflow: hidden;
-  font-size: 30px;
-}
-
 .seccion-medios-pago .imagen-logos {
   display: flex;
   justify-content: center;
@@ -21,7 +9,18 @@
   font-family: fantasy;
   transition: all 0.3s;
 }
-.seccion-medios-pago .article-medios-pago .list-group .list-group-item:hover {
+.seccion-medios-pago .article-medios-pago .list-group .list-group-item :hover {
+  overflow: hidden;
+  font-size: 30px;
+}
+
+.h1-mediosdepagoo {
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.h1-mediosdepagoo :hover {
   overflow: hidden;
   font-size: 30px;
 }
@@ -32,12 +31,19 @@
 }
 .footermedios .volver-arriba-pago {
   display: flex;
-  text-decoration: none;
-  transition: all 0.3s;
 }
-.footermedios .volver-arriba-pago:hover {
+.footermedios .volver-arriba-pago :hover {
   overflow: hidden;
   font-size: 30px;
+}
+
+.footermedios .volver-arriba-pago {
+  text-decoration: none, transition all 0.3s;
+}
+
+.section-navbar {
+  font-size: 25px;
+  background-color: burlywood;
 }
 
 /*# sourceMappingURL=stylee.css.map */

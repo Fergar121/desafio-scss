@@ -1,8 +1,14 @@
 @import "seccion";
 @import "footer";
 @import "mapas";
-
-.footer-h2-pago{
-    @include footer-h2();
+ 
+@mixin mixin-navbar {
+    .section-navbar{
+        font-size: 25px;
+    background-color:burlywood ;
+    }
 }
+@import "header";
+@import "mapas";
+
 

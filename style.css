@@ -1,3 +1,14 @@
+@media screen and (max-width: 800px),(min-width: 200px) {
+   .nombredobleshoes{
+    text-align: center;
+   }
+}
+@media screen and (max-width: 899px), (min-width: 200px) {
+    .links-secciones-productos{
+        display: flex;
+        flex-direction: column;
+    }
+}
 .mediosdecontactonav{
     height: 160px;
     border: solid 5px black;
@@ -48,8 +59,6 @@
 .mediosdecontacto-01:hover{
     background-color: aquamarine;
 }
-
-
 .maps{
     text-align: center;
     padding-bottom: 10%;
@@ -84,7 +93,6 @@
     top: 3170px;
 
 }
-
 .footercontacto{
     color: black;
     font-size: 40px;
@@ -93,7 +101,6 @@
     left: 1600px;
     bottom: 200px;
 }
-
 .linkcomunicacion{
     position: relative;
     text-align: center;
@@ -138,14 +145,7 @@
 .idmedios{
     position: absolute;
     top: 3500px;
-}
-@media screen and (max-width: 150px) {
-    .grid-item--{
-        display: flex;
-        flex-direction: column;
-    }
-    
-}
+} 
 /* SECCION buzos */
 
 .linkbuzos-1{
@@ -441,7 +441,8 @@
     transition: all 0.3s;
 }
 .footerverano:hover{
-    color:rgb(128, 0, 36); font-size:30px;
+    color:rgb(128, 0, 36); 
+    font-size:30px;
 }
 /* fin de seccion verano */
 
@@ -550,7 +551,10 @@
     grid-row-gap: 30px;
     text-align: center;
 }
-  
+.section-navbar{
+    font-size: 25px;
+    background-color:burlywood ;
+}  
 .imagen-logos{
     display: flex;
     justify-content: center;
@@ -565,7 +569,6 @@
     position: relative;
     top: 200px;
     text-align: center;
-    border: solid 3px black;
 }
   
 .grid-item--1 { 
