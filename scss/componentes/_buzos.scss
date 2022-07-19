@@ -3,10 +3,6 @@
     text-align: center;
     color: map-get($map:$propiedades , $key:colortitle )
 }
-.section-navbar{
-    background-color: burlywood;
-    font-size: map-get($map: $propiedades, $key:font-s );
-}
 .grid-container-2{
     @include display (grid);
     grid-template-columns: 1fr ;
