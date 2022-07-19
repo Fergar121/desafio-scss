@@ -1,14 +1,4 @@
-@media screen and (max-width: 800px),(min-width: 200px) {
-    .nombredobleshoes{
-     text-align: center;
-    }
- }
- @media screen and (max-width: 899px), (min-width: 200px) {
-     .links-secciones-productos{
-         display: flex;
-         flex-direction: column;
-     }
- }
+
  .mediosdecontactonav{
      height: 160px;
      border: solid 5px black;
@@ -16,12 +6,12 @@
      font-size: 27px;
      background-color: rgb(220, 160, 160);
  }
+
  .nombredobleshoes{
      color: rgb(0, 0, 0);
      font-family: fantasy;
      padding-top: 7%;
      font-size: 30px;
-     position: absolute;
      transition: all 0.5s;
      display: flex;
      position: relative;
@@ -59,47 +49,21 @@
  .mediosdecontacto-01:hover{
      background-color: aquamarine;
  }
- .maps{
-     text-align: center;
-     padding-bottom: 10%;
-     position: absolute;
-     left: 600px;
-     top: 500px;
- }
  .footerpago{
-     position: absolute;
-     top:3000px ;
-     left: 30px;
+     position: relative;
+     top: 1000px;
      font-size: 30px;
      color: rgb(0, 0, 0);
      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  }
  
  .clickmedios{
-     font-size: 25px;
-     color: rgb(0, 0, 0);
-     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     position: absolute;
-     top: 3070px;
-     left: 30px;
-     text-decoration: none;
- }
- 
- .domicilio{
-     color: rgb(0, 0, 0);
-     font-size: 20px;
-     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     position: absolute;
-     top: 3170px;
- 
- }
- .footercontacto{
-     color: black;
-     font-size: 40px;
-     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     position: relative;
-     left: 1600px;
-     bottom: 200px;
+        font-size: 25px;
+        color: rgb(0, 0, 0);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: relative;
+        top: 0px;
+        text-decoration: none;
  }
  .linkcomunicacion{
      position: relative;
@@ -117,32 +81,34 @@
      color: black;
      font-family: fantasy;
  }
- .botonarriba{
-     position: absolute;
-     top: 3500px;
- }
- .h2productos{
-     position: relative;
-     text-align: center;
-     font-size: 30px;
-     top: 800px;
-     color: brown;
- }
  .footerindex{
-     bottom: 2500px;
-     position: relative;
+     border: solid 3px black;
  }
- .linksheader{
-     text-align: center;
- }
- 
- .logoheaderdoble{
-     color: rgba(189, 179, 179, 0.496);
-     position: relative;
-     top: 100px;
- }
- 
- .idmedios{
-     position: absolute;
-     top: 3500px;
- } 
+.textoh2-footer{
+    color: brown;
+    font-family: fantasy;
+}
+.img-1{
+    width: 100px;
+    height: 100px;
+}
+.article-index{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    gap: 20px;
+}
+.header-section-datos{
+    text-align: center;
+    color: brown;
+    font-family: fantasy;
+}
+.mapa-footer{
+   position: relative;
+   text-align: center;
+}
+@media screen and (max-width: 899px) {
+    .navbar{
+        align-items: center;
+    }
+}
