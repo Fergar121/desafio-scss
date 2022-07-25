@@ -1,12 +1,15 @@
-.grid-item-buzos-4, .grid-item-buzos-3, .grid-item-buzos-2, .grid-item-buzos-1 {
-  border: solid 2px rgb(171, 185, 11);
-  background-color: rgba(8, 8, 8, 0.737);
+.titlebuzos {
+  text-align: center;
+  position: relative;
+  font-family: fantasy;
+  color: rgb(89, 103, 11);
+  font-size: 35px;
+  transition: all 0.5s;
 }
 
-.titlebuzos {
+.titlebuzos:hover {
+  color: rgb(88, 204, 200);
   font-size: 40px;
-  text-align: center;
-  color: rgb(198, 151, 65);
 }
 
 .grid-container-2 {
@@ -19,33 +22,15 @@
 }
 
 .footer-doble {
-  color: rgb(71, 36, 36);
+  color: rgba(255, 0, 212, 0.822);
+  font-family: fantasy;
   font-size: 30px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  position: relative;
-  text-align: left;
   transition: all 0.5s;
 }
 
 .footer-doble:hover {
-  color: violet;
-  font-size: 30px;
-}
-
-.footermedios .footer-h2-pago {
-  font-family: fantasy;
-  color: red;
-}
-.footermedios .volver-arriba-pago {
-  display: flex;
-}
-.footermedios .volver-arriba-pago :hover {
-  overflow: hidden;
-  font-size: 30px;
-}
-
-.footermedios .volver-arriba-pago {
-  text-decoration: none, transition all 0.3s;
+  font-size: 35px;
+  color: blue;
 }
 
 .seccion-medios-pago .imagen-logos {
@@ -76,53 +61,30 @@
   font-size: 30px;
 }
 
-.linknike-1 {
-  position: relative;
-  top: 0px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 18px;
+.footermedios {
+  color: rgba(255, 0, 212, 0.822);
+  font-family: fantasy;
+  font-size: 30px;
   transition: all 0.5s;
 }
 
-.linknike-2 {
-  position: relative;
-  top: 5px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 18px;
-  transition: all 0.3s;
-}
-
-.linknike-3 {
-  position: relative;
-  top: 10px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 18px;
-  transition: all 0.3s;
-  top: 10px;
-}
-
-.linknike-4 {
-  position: relative;
-  top: 15px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 18px;
-  transition: all 0.3s;
-}
-
-.linknike-5 {
-  position: relative;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 18px;
-  transition: all 0.3s;
-  top: 20px;
+.footermedios:hover {
+  font-size: 35px;
+  color: blue;
 }
 
 .h2nike {
-  position: relative;
   text-align: center;
+  position: relative;
+  font-family: fantasy;
+  color: rgb(89, 103, 11);
+  font-size: 35px;
+  transition: all 0.5s;
+}
+
+.h2nike:hover {
+  color: rgb(88, 204, 200);
   font-size: 40px;
-  color: rgb(68, 82, 83);
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .zapatillasnike {
@@ -137,161 +99,48 @@
 }
 
 .nikefooter {
-  display: flex;
-  font-size: 40px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: tomato;
+  color: rgba(255, 0, 212, 0.822);
+  font-family: fantasy;
+  font-size: 30px;
   transition: all 0.5s;
 }
 
 .nikefooter:hover {
-  color: red;
-  font-size: 30px;
-}
-
-/* inicio de rave */
-.linkrave-1:hover {
-  overflow: hidden;
-  font-size: 30px;
-}
-
-.linkrave-2:hover {
-  overflow: hidden;
-  font-size: 30px;
-}
-
-.linkrave-3:hover {
-  overflow: hidden;
-  font-size: 30px;
-}
-
-.linkrave-4:hover {
-  overflow: hidden;
-  font-size: 30px;
-}
-
-.linkrave-5:hover {
-  overflow: hidden;
-  font-size: 30px;
-}
-
-.linkrave-1 {
-  position: relative;
-  top: 0px;
-  transition: all 0.3s;
-}
-
-.linkrave-2 {
-  position: relative;
-  top: 5px;
-  transition: all 0.3s;
-}
-
-.linkrave-3 {
-  position: relative;
-  top: 10px;
-  transition: all 0.3s;
-}
-
-.linkrave-4 {
-  position: relative;
-  top: 15px;
-  transition: all 0.3s;
-}
-
-.linkrave-5 {
-  position: relative;
-  top: 20px;
-  transition: all 0.3s;
+  font-size: 35px;
+  color: blue;
 }
 
 .titulocalzadorave {
   text-align: center;
   position: relative;
   font-family: fantasy;
-  color: crimson;
+  color: rgb(89, 103, 11);
   font-size: 35px;
   transition: all 0.5s;
 }
 
 .titulocalzadorave:hover {
-  color: rgb(33, 110, 108);
+  color: rgb(88, 204, 200);
   font-size: 40px;
 }
 
 .textoyimagenesrav {
   text-align: center;
-  color: rgb(52, 25, 30);
+  color: rgb(242, 143, 5);
   font-size: 20px;
   font-family: fantasy;
 }
 
 .finrav {
-  font-size: 30px;
-  color: rgb(40, 38, 38);
+  color: rgba(255, 0, 212, 0.822);
   font-family: fantasy;
+  font-size: 30px;
   transition: all 0.5s;
 }
 
 .finrav:hover {
-  color: rgb(35, 33, 33);
-  font-size: 40px;
-}
-
-.linkrave-:hover {
-  color: aquamarine;
-}
-
-/* fin de seccion de rav */
-.nombredobleshoes:hover {
-  color: green;
-  font-size: 30px;
-}
-
-.mediosdepagoheader:hover {
-  background-color: aquamarine;
-}
-
-.mediosdecontacto-01:hover {
-  background-color: aquamarine;
-}
-
-.footerpago {
-  position: relative;
-  top: 1000px;
-  font-size: 30px;
-  color: rgb(0, 0, 0);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.clickmedios {
-  font-size: 25px;
-  color: rgb(0, 0, 0);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  position: relative;
-  top: 0px;
-  text-decoration: none;
-}
-
-.article {
-  justify-content: center;
-}
-
-.textoh2-footer {
-  color: brown;
-  font-family: fantasy;
-}
-
-.img-1 {
-  width: 100px;
-  height: 100px;
-}
-
-.article-index {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  gap: 20px;
+  font-size: 35px;
+  color: blue;
 }
 
 .header-section-datos {
@@ -308,8 +157,18 @@
   font-size: 30px;
 }
 
-.textoh2-footer {
+.link-secciones-index {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.article-index {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  gap: 20px;
 }
 
 .mapa-footer {
@@ -317,21 +176,16 @@
   text-align: center;
 }
 
-.navbar-fg {
-  display: flex;
-  justify-content: space-around;
+.nombre-footer {
+  color: rgba(255, 0, 212, 0.822);
+  font-family: fantasy;
+  font-size: 30px;
   transition: all 0.5s;
 }
-.navbar-fg :hover {
-  color: green;
-  font-size: 30px;
-}
 
-.link-secciones-index {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-family: cursive;
-  font-size: 20px;
+.nombre-footer:hover {
+  font-size: 35px;
+  color: blue;
 }
 
 @media screen and (max-width: 798px) {
@@ -350,73 +204,49 @@
     height: 50%;
   }
 }
+.navbar-fg {
+  display: flex;
+  justify-content: space-around;
+  transition: all 0.5s;
+}
+.navbar-fg :hover {
+  color: green;
+  font-size: 30px;
+}
+
+.volverarriba {
+  text-decoration: none;
+  color: black;
+  font-family: fantasy;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+.volverarriba:hover {
+  font-size: 25px;
+  color: olive;
+}
+
 /* Inicio seccion de verano */
-.bodyverano {
-  background-color: rgb(107, 120, 18);
-}
-
-.linkverano-1 {
-  transition: all 0.3s;
-}
-
-.linkverano-1:hover {
-  overflow: hidden;
-  font-size: 30px;
-}
-
-.linkverano-2 {
-  transition: all 0.3s;
-}
-
-.linkverano-2:hover {
-  overflow: hidden;
-  font-size: 30px;
-}
-
-.linkverano-3 {
-  transition: all 0.3s;
-}
-
-.linkverano-3:hover {
-  overflow: hidden;
-  font-size: 30px;
-}
-
-.linkverano-4 {
-  transition: all 0.3s;
-}
-
-.linkverano-4:hover {
-  overflow: hidden;
-  font-size: 30px;
-}
-
-.linkverano-5 {
-  transition: all 0.3s;
-}
-
-.linkverano-5:hover {
-  overflow: hidden;
-  font-size: 30px;
-}
-
-.navverano:hover {
-  color: gray;
-  font-size: 22px;
-}
-
 .tituloverano {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: rgb(211, 164, 255);
   text-align: center;
+  position: relative;
+  font-family: fantasy;
+  color: rgb(89, 103, 11);
   font-size: 35px;
+  transition: all 0.5s;
+}
+
+.tituloverano:hover {
+  color: rgb(88, 204, 200);
+  font-size: 40px;
 }
 
 .imagenesytitulosverano {
   text-align: center;
   position: relative;
   font-size: 25px;
-  color: rgb(211, 164, 255);
+  color: rgb(0, 0, 0);
 }
 
 .imagenesytitulosverano:hover {
@@ -424,16 +254,15 @@
 }
 
 .footerverano {
-  position: relative;
-  font-size: 25px;
-  color: rgb(211, 164, 255);
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  transition: all 0.3s;
+  color: rgba(255, 0, 212, 0.822);
+  font-family: fantasy;
+  font-size: 30px;
+  transition: all 0.5s;
 }
 
 .footerverano:hover {
-  color: rgb(128, 0, 36);
-  font-size: 30px;
+  font-size: 35px;
+  color: blue;
 }
 
 /* fin de seccion verano */

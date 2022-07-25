@@ -1,70 +1,30 @@
 /* Inicio seccion de verano */
-.bodyverano{
-    background-color: rgb(107, 120, 18);
-}
 
-.linkverano-1{
-    transition: all 0.3s;
-}
-.linkverano-1:hover{
-    overflow: hidden;
-    font-size: 30px;
-}
-.linkverano-2{
-    transition: all 0.3s;
-}
-.linkverano-2:hover{
-    overflow: hidden;
-    font-size: 30px;
-}
-.linkverano-3{
-    transition: all 0.3s;
-}
-.linkverano-3:hover{
-    overflow: hidden;
-    font-size: 30px;
-}
-.linkverano-4{
-    transition: all 0.3s;
-}
-.linkverano-4:hover{
-    overflow: hidden;
-    font-size: 30px;
-}
-.linkverano-5{
-    transition: all 0.3s;
-}
-.linkverano-5:hover{
-    overflow: hidden;
-    font-size: 30px;
-}
-.navverano:hover{
-    color: gray; font-size: 22px;
-}
+// section
 .tituloverano{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(211, 164, 255);
-    text-align: center;
-    font-size: 35px;
+    @include titles
+}
+.tituloverano:hover{
+    @include hoovertitle
 }
 .imagenesytitulosverano{
     text-align: center;
     position: relative;
     font-size: 25px;
-    color: rgb(211, 164, 255);
+    color: rgb(0, 0, 0);
 }
 .imagenesytitulosverano:hover{
     filter: saturate(180%);
 }
+// fin de section
+
+// footer
 .footerverano{
-    position: relative;
-    font-size: 25px;
-    color: rgb(211, 164, 255);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    transition: all 0.3s;
+    @include footeranimation
 }
 .footerverano:hover{
-    color:rgb(128, 0, 36); 
-    font-size:30px;
+    @include hoover
 }
+// fin footer
+
 /* fin de seccion verano */

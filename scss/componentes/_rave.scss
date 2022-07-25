@@ -1,76 +1,23 @@
-/* inicio de rave */
-.linkrave-1:hover{
-    overflow: hidden;
-    font-size: 30px;
-}
-.linkrave-2:hover{
-    overflow: hidden;
-    font-size: 30px;
-}
-.linkrave-3:hover{
-    overflow: hidden;
-    font-size: 30px;
-}
-.linkrave-4:hover{
-    overflow: hidden;
-    font-size: 30px;
-}
-.linkrave-5:hover{
-    overflow: hidden;
-    font-size: 30px;
-}
-.linkrave-1{
-    position: relative;
-    top: 0px;
-    transition: all 0.3s;
-}
-.linkrave-2{
-    position: relative;
-    top: 5px;
-    transition: all 0.3s;
-}
-.linkrave-3{
-    position: relative;
-    top: 10px;
-    transition: all 0.3s;
-}
-.linkrave-4{
-    position: relative;
-    top: 15px;
-    transition: all 0.3s;
-}
-.linkrave-5{
-    position: relative;
-    top: 20px;
-    transition: all 0.3s;
-}
+// Section
 .titulocalzadorave{
-    text-align: center;
-    position: relative;
-    font-family: fantasy;
-    color:crimson ;
-    font-size: 35px;
-    transition: all 0.5s;
+    @include titles
 }
 .titulocalzadorave:hover{
-    color:rgb(33, 110, 108); font-size:40px;
+    @include hoovertitle
 }
 .textoyimagenesrav{
     text-align: center;
-    color: rgb(52, 25, 30) ;
+    color: rgb(242, 143, 5) ;
     font-size: 20px;
     font-family: fantasy;
 }
+// fin de section
+
+// footer
 .finrav{
-    font-size: 30px;
-    color: rgb(40, 38, 38);
-    font-family: fantasy;
-    transition: all 0.5s;
+    @include footeranimation;
 }
 .finrav:hover{
-    color: rgb(35, 33, 33); font-size: 40px;
+   @include hoover
 }
-.linkrave-:hover{
-    color: aquamarine;
-}
-/* fin de seccion de rav */
+// fin de footer

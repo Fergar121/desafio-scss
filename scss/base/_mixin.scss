@@ -1,3 +1,26 @@
 @mixin display ($displays) {
     display: grid;
 }
+
+@mixin footeranimation {
+    color: rgba(255, 0, 212, 0.822);
+    font-family: fantasy;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+@mixin hoover {
+    font-size: 35px;
+    color: blue;
+}
+@mixin titles {
+    text-align: center;
+    position: relative;
+    font-family: fantasy;
+    color:rgb(89, 103, 11) ;
+    font-size: 35px;
+    transition: all 0.5s;
+}
+@mixin hoovertitle {
+    color:rgb(88, 204, 200); 
+    font-size:40px;
+}
