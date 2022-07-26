@@ -164,19 +164,31 @@
   font-size: 20px;
 }
 
+.links-section-index {
+  position: relative;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
 .article-index {
   display: flex;
   flex-direction: column;
   text-align: center;
+  position: relative;
   gap: 20px;
+  top: 20px;
 }
 
 .mapa-footer {
+  top: 15px;
   position: relative;
   text-align: center;
 }
 
 .nombre-footer {
+  position: relative;
+  top: 15px;
   color: rgba(255, 0, 212, 0.822);
   font-family: fantasy;
   font-size: 30px;
