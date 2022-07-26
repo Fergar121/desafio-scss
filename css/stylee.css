@@ -220,7 +220,6 @@
 .navbar-fg {
   display: flex;
   justify-content: space-around;
-  transition: all 0.5s;
 }
 .navbar-fg :hover {
   color: green;
