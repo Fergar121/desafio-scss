@@ -20,8 +20,7 @@
 .links-section-index{
     position: relative;
     top: 10px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 // fin de header
 
@@ -71,6 +70,12 @@
         height: 50%;
     }
 }
+@media screen and (max-width: 798px) {
+    .links-section-index{
+        position: relative;
+        text-align: center;
+    }
+}
 // fin media queries
 
 // navbar para todas las pages
@@ -78,7 +83,7 @@
     display: flex;
     justify-content: space-around;
     & :hover{
-       color: green;
+       color: rgb(0, 175, 0);
     }
  }
 

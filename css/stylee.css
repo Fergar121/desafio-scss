@@ -168,8 +168,7 @@
 .links-section-index {
   position: relative;
   top: 10px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .article-index {
@@ -217,12 +216,18 @@
     height: 50%;
   }
 }
+@media screen and (max-width: 798px) {
+  .links-section-index {
+    position: relative;
+    text-align: center;
+  }
+}
 .navbar-fg {
   display: flex;
   justify-content: space-around;
 }
 .navbar-fg :hover {
-  color: green;
+  color: rgb(0, 175, 0);
 }
 
 .volverarriba {
