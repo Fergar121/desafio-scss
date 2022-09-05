@@ -10,7 +10,7 @@
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     text-align: map-get($propiedades,text);
-    color: map-get($map: $propiedades, $key: color);
+    color: black;
     font-size: 30px;
 }
 // fin de section
