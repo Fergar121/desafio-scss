@@ -1,0 +1,15 @@
+let stock= [
+   {id: 1, nombre: "Buzo blanco Dolce&Gabana", cantidad: 1, precio: 5400},
+   {id: 2, nombre: "Buzo gris Abercrombie", cantidad: 1, precio: 5600},
+   {id: 3, nombre: "Buzo Negro Tommy Hilfiger", cantidad: 1, precio: 4700},
+   {id: 4, nombre: "Buzo Rojo Hollister", cantidad: 1, precio: 5000},
+   {id: 5, nombre: "Nike Negras Air 70", cantidad: 1, preico: 6000},
+   {id: 6, nombre: "Nike Airmax Colors", cantidad: 1, precio: 6700},
+   {id: 7, nombre: "Nike Zoom Azul y Rosa", cantidad: 1, precio: 6400},
+   {id: 8, nombre: "Rave Gris Unisex", cantidad: 1, precio: 5500},
+   {id: 9, nombre: "RaveLona Unisex Clasicas Beige", cantidad: 1, precio: 5200},
+   {id: 10, nombre: "Rave Negra de lona Unisex", cantidad: 1, precio: 5500},
+   {id: 11, nombre: "floops",cantidad: 1, precio: 2000},
+   {id: 12, nombre: "ojotas", cantidad: 1, precio: 2500},
+   {id: 13, nombre: "sandalias", cantidad: 1, precio: 2300}, 
+]  
