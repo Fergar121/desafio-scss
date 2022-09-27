@@ -2,11 +2,13 @@ const stockDisponible = document.getElementById('stockDisponible');
 
 const contenedorCarrito = document.getElementById('carrito-contenedor');
 
-const botonVaciar = document.getElementById('vaciar-carrito')
+const botonVaciar = document.getElementById('vaciarCarrito')
 
 const contadorCarrito = document.getElementById('contadorCarrito')
 
 const precioTotal = document.getElementById('precioTotal')
+
+const arrayProducto = document.getElementById('contenedor-productos')
 
 let carrito = []
 
@@ -18,7 +20,9 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 botonVaciar.addEventListener('click', () => {
-    carrito.length = 0
+    if (botonVaciar){
+        carrito.length = 0
+    }
 })
 
 stock.forEach((producto)=> {
@@ -37,11 +41,11 @@ stock.forEach((producto)=> {
 })
 
 const agregarAlcarrito = (proID) => {
-    const existe = carrito.some (prod => prod.id === prod.id)
+    const existe = carrito.some (prod => prod.ID === prod.ID)
 
     if(existe){
         const prod = carrito.map(prod => {
-            if (prod.id === proId){
+            if (prod.id === proID){
                 prod.cantidad
             }
         })

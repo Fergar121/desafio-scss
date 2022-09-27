@@ -15,21 +15,22 @@
 
     <main id="contenedor-productos"></main>
 
-    <div class="modal-contenedor">
-        <div class="modal-carrito">
-            <h3>Carrito</h3>
-            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
-            <div id="carrito-contenedor">
-                <div class="productoEnCarrito">
-                    <p></p>
-                    <p></p>
-                    <button class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
+    <section>
+        <div class="modal-contenedor">
+            <div class="modal-carrito">
+                <h3>Carrito</h3>
+                <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+                <div id="carrito-contenedor">
+                    <div class="productoEnCarrito">
+                        <p>Cantidad:</p>
+                        <p>Precio</p>
+                        <button id="vaciarCarrito">vaciarCarrito</button>
+                    </div>
                 </div>
+                <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
             </div>
-            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
-            <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
         </div>
-    </div>
+    </section>
     <script src="./stock.js"></script>
     <script src="./modal.js"></script>
     <script src="./index.js"></script>
