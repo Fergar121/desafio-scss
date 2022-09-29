@@ -34,8 +34,10 @@ stock.forEach((producto)=> {
     <button id="agregar ${producto.id}" class="button-agregar">Agregar<i class fas-fa-shopping-cart</button>
     `
     stockDisponible.appendChild(div)
+
     const boton = document.getElementById('agregar ${producto.id}')
     addEventListener('click', () => {
+        console.log(producto.id)
         agregarAlcarrito(producto.id)
     })
 })
@@ -45,13 +47,13 @@ const agregarAlcarrito = (proID) => {
 
     if(existe){
         const prod = carrito.map(prod => {
-            if (prod.id === proID){
+            if (prod.id === prodID){
                 prod.cantidad
             }
         })
         
     }else {
-            const item = stockDisponible.find (prod => prod.id === prodId)
+            const item = stock.find (prod => prod.id === prodId)
         carrito.push(item) 
       
         console.log (agregarAlcarrito)
@@ -59,7 +61,7 @@ const agregarAlcarrito = (proID) => {
      actualizarcarrito()
 }
 
-const eliminarDelcarrito = (proID) =>{
+const eliminarDelcarrito = (prodId) =>{
     const item = carrito.find((prod) =>prod.id === prodId)
     const indice = carrito.indexOf(item)
     carrito.splice(indice, 1)
