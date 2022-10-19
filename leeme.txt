@@ -1,0 +1,1 @@
+Hola Profesor, el uso de fetch se va a ver en el apartado index en el fondo de la pagina, lo demas se encuentra en carrito.
